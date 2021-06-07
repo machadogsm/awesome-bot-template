@@ -24,7 +24,7 @@ message.channel.send(`${message.author.username} **acaba de beijar** ${user.user
 let avatar = message.author.displayAvatarURL({format: 'png'});
   const embed = new Discord.MessageEmbed()
         .setTitle('Hug')
-        .setColor('#924443')
+        .setColor('#000000')
         .setDescription(`${message.author} abraçou ${user}`)
         .setImage(rand)
         .setTimestamp()
